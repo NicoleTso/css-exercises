@@ -5,10 +5,11 @@ body{
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-}
 
-.small-para {
-  font-size: 14px;
+  font-weight: bolder;
+}
+#small-para {
+  font-size: 10px;
 }
 
 .para {
@@ -19,9 +20,10 @@ body{
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 } 
 
-.button {
+.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
@@ -30,9 +32,13 @@ body{
 .child {
   color: rgb(0, 0, 0);
   font-size: 14px;
+  font-weight: bolder;
+  
 }
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
+  font-weight:lighter;
+ 
 }
